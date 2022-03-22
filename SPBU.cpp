@@ -8,9 +8,6 @@ int main(){
 	int pertalite=7000,pertamax=9000,bensin,liter;
 	float total;
 	
-//	cout<<"Masukkan Nama : ";cin>>nama;
-//	cout<<"Masukkan Jenis Bensin (Pertalite/Pertamax) : ";cin>>bensin;
-	do{
 		cout<<"Pilih Jenis Bensin"<<endl;
 		cout<<"1. Pertalite"<<endl;
 		cout<<"2. Pertamax"<<endl;
@@ -39,7 +36,6 @@ int main(){
 			break;
 	}
 	
-	}while(ulang=="y");
 	return 0;
 }
 
